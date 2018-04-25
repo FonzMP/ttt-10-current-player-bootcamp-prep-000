@@ -15,4 +15,9 @@ def current_player(board)
     if notation == "X" || notation == "O"
       turn_counter += 1
     end
+
+    if turn_counter % 2 == 0
+      return "X"
+    else
+      return "O"
 end
