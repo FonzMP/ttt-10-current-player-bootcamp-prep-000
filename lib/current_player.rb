@@ -14,4 +14,5 @@ def current_player(board)
   board.each do |notation|
     if notation == "X" || notation == "O"
       turn_counter += 1
+    end
 end
