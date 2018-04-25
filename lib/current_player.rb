@@ -10,5 +10,5 @@ end
 
 
 def current_player(board)
-
+  turn_counter = 0
 end
